@@ -52,7 +52,7 @@ public class Controller {
         linkPipeline();
     }
 
-    @Schedule(hour = "*", minute = "*", second = "10", persistent = false)
+    @Schedule(hour = "*", minute = "*", second = "*/10", persistent = false)
     public void tick() {
         pullTimer += 10;
         if (pullTimer >= Integer.parseInt(config.get("pullInterval"))) {
