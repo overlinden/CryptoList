@@ -12,5 +12,8 @@ Features:
 * Supports MIME messages and attachments
 * Full customizable help system
 
+Required 3rd party libraries:
+* http://jpgpmime.sourceforge.net/
+
 This software is currently in beta stage. A test mailing list is setup at cryptolist@wps-verlinden.de
 If you want to perticipate in the test please provide your public key and your email address to: oliver@wps-verlinden.de
